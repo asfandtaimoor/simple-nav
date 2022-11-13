@@ -9,13 +9,12 @@ a{
 li{
             list-style: none;
 }
-header {
-  border: 1px solid red;
+header { 
   display: flex;
   justify-content: space-around;
   align-items: center;
   background: #268fa9;
-  height:120px;
+  height:90px;
   min-width: 300px;
 
 }
@@ -81,8 +80,8 @@ visibility: visible;
                         height:100%;
                         background-color: #ccc;
                         position: absolute;
-                        top:120px;
-                        padding-top: 10%; 
+                        top:90px;
+                        padding-top: 2%; 
                         transform: translateX(100%);
                         transition: all 0.5s;
                         visibility: hidden;
@@ -92,7 +91,7 @@ visibility: visible;
                         text-align: center;
             }
             .item{
-                        margin:30px 0px;
+                        margin:20px 0px;
             }
             .item:hover{
                         background-color:rgba(8, 84, 116, 0.218);
